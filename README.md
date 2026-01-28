@@ -87,6 +87,6 @@ This project successfully established a scalable ITSM framework centered on the 
 ---
 
 ## Connect with Me
-* **Name:** [Brianne Young]
-* **LinkedIn:** [https://www.linkedin.com/in/brianne-young0/]
-* **Email:** [brianneyoung0@gmail.com]
+* **Name:** Brianne Young
+* **LinkedIn:** https://www.linkedin.com/in/brianne-young0/
+* **Email:** brianneyoung0@gmail.com
