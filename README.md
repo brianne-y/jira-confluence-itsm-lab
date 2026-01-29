@@ -25,13 +25,14 @@ I created a customer portal where employees can go to report a broken laptop or 
 
 ---
 
-### 2. Managing the Workflow (Solving Tickets)
-I practiced taking "tickets" through their full journey: **To Do → In Progress → Resolved.** This taught me how to document my work so that if a similar problem happens again, the solution is already there.
+### 2. Beating the Clock (SLA Management)
+In a professional office, some problems are more urgent than others. I set up **SLAs (Service Level Agreements)**—which are basically "count-down timers"—to make sure high-priority issues get fixed fast. This keeps the IT team accountable and makes sure no one is waiting too long for help.
 
 <p align="center">
-<img src="img/02_jira_workflow.png" height="80%" width="80%" alt="Ticketing Workflow"/>
-<br />
-<em>Moving a ticket from "New" to "Fixed."</em>
+  <img src="img/02_sla_setup.jpg" width="48%" />
+  <img src="img/SLA_Timer:Incident_Reported_Phase2.jpg" width="48%" />
+  <br />
+  <em>Left: Building the 2-hour "Time to Resolution" timer | Right: The live timer counting down on a real ticket.</em>
 </p>
 
 ---
@@ -48,12 +49,19 @@ In IT, some problems are more urgent than others. I set up **SLAs (Service Level
 ---
 
 ### 4. Building the "Help Yourself" Library (Confluence)
-I used **Confluence** to write simple, step-by-step guides (Knowledge Base articles) for things like "How to Reset Your Password." This helps users fix their own small problems, which gives the IT team more time for big projects.
+I used **Confluence** to create a "Knowledge Base." I wrote a step-by-step guide for common issues like VPN errors so users can find answers without even opening a ticket. This is called **Ticket Deflection**, and it’s a win-win: the user gets a fast answer, and the IT team stays focused on bigger projects.
 
 <p align="center">
-<img src="img/04_confluence_kb.png" height="80%" width="80%" alt="Knowledge Base"/>
+  <img src="img/Knowledge-Base-Creation-Phase3.jpg" width="48%" />
+  <img src="img/VPN_Article_Search_Phase3.jpg" width="48%" />
+  <br />
+  <em>Left: Setting up the library | Right: The system suggesting my guide when a user types "VPN."</em>
+</p>
+
+<p align="center">
+<img src="img/07_vpn_guide.jpg" height="80%" width="80%">
 <br />
-<em>A simple guide I wrote to help users help themselves.</em>
+<em>The finished guide: A professional "Problem vs. Solution" article I authored.</em>
 </p>
 
 ---
