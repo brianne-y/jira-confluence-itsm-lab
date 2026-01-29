@@ -29,7 +29,7 @@ I created a customer portal where employees can go to report a broken laptop or 
 In a professional office, some problems are more urgent than others. I set up **SLAs (Service Level Agreements)**—which are basically "count-down timers"—to make sure high-priority issues get fixed fast. This keeps the IT team accountable and makes sure no one is waiting too long for help.
 
 <p align="center">
-  <img src="img/02_sla_setup.jpg" width="48%" />
+  <img src="img/02_sla_setup.jpg.png" width="48%" />
   <img src="img/SLA_Timer:Incident_Reported_Phase2.jpg" width="48%" />
   <br />
   <em>Left: Building the 2-hour "Time to Resolution" timer | Right: The live timer counting down on a real ticket.</em>
