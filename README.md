@@ -36,13 +36,14 @@ In a professional office, some problems are more urgent than others. I set up **
 ---
 
 ### 3. Managing the Workflow (Solving Tickets)
-I practiced taking "tickets" through their full journey: **To Do → In Progress → Resolved.** This taught me how to document my work so that if a similar problem happens again, the solution is already there.
+I practiced taking "tickets" through their full journey: **To Do → In Progress → Resolved.** This taught me how to document my work and keep the user informed so they aren't left wondering when their computer will be fixed.
 
 <p align="center">
-  <img src="img/04_ticket_in_progress.jpg" width="48%" />
-  <img src="img/05_ticket_resolved.jpg" width="48%" />
+  <img src="img/04_ticket_in_progress.jpg" width="31%" />
+  <img src="img/04b_user_update.jpg" width="31%" />
+  <img src="img/05_ticket_resolved.jpg" width="31%" />
   <br />
-  <em>Moving a ticket from "New" to "Fixed."</em>
+  <em>Left: Moving to "In Progress" | Middle: Updating the user with a comment | Right: Marking as "Resolved."</em>
 </p>
 
 ---
