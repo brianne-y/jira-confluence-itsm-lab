@@ -1,78 +1,44 @@
-# Jira Service Management: Building a Professional Help Desk
+# Jira Service Management & Confluence Lab: End-to-End ITSM Simulation
 
-## What is this project?
-I built this lab to simulate how a professional IT department handles requests, fixes problems, and shares knowledge. Instead of just fixing things randomly, I set up a structured system using **Jira Service Management** to track every issue from start to finish.
+## Overview
+This lab simulates a functioning MSP-style help desk environment built on Jira Service Management and Confluence. The focus was on replicating the full operational workflow of a real IT support team — from customer-facing portal configuration through ticket triage, SLA enforcement, resolution documentation, and knowledge base development.
 
-## The Tools I Used
-- **Jira Service Management:** The "command center" where all tech requests (tickets) come in.
-- **Confluence:** The "library" where I wrote helpful "How-to" guides for users.
-- **SLA (Service Level Agreements):** The "timer" that ensures I fix problems quickly.
+Every ticket in this lab was worked through its complete lifecycle with realistic scenarios, proper internal notes, and user-facing communication — not just moved to "Resolved" to close it out.
 
----
+## What Was Built
+**Customer Portal Configuration**:
+Configured a self-service portal where end users submit requests categorized by issue type. Request types were structured so tickets route correctly on intake, reducing the triage overhead that comes from miscategorized or vague submissions.
 
-## What I Did (Step-by-Step)
+**SLA Policy Configuration**:
+Built custom SLA rules with priority-based time-to-resolution targets. High-priority incidents were assigned tighter windows than standard service requests, mirroring real escalation tiers. SLA timers were validated against live tickets to confirm they triggered and tracked correctly.
 
-### 1. Setting Up the "Front Desk" (The Portal)
-I created a customer portal where employees can go to report a broken laptop or request new software. I learned how to categorize these requests so they automatically go to the right person.
+**Full Ticket Lifecycle Management**:
+Worked tickets from intake through resolution across multiple realistic scenarios — account access issues, software requests, connectivity problems, and hardware faults. Each ticket includes internal work notes documenting the troubleshooting steps taken, and user-facing updates keeping the requester informed throughout the process.
 
-<p align="center">
-<img src="img/01_customer_portal.jpg" height="80%" width="80%" alt="Jira Portal"/>
-<br />
-<em>This is what the user sees when they need help!</em>
-</p>
+Tickets were not closed without a documented resolution. This reflects the accountability standard that makes ticket history actually useful for trend analysis and repeat-issue identification.
 
----
-
-### 2. Beating the Clock (SLA Management)
-In a professional office, some problems are more urgent than others. I set up **SLAs (Service Level Agreements)**—which are basically "count-down timers"—to make sure high-priority issues get fixed fast. 
-
-<p align="center">
-  <img src="img/02_sla_setup.jpg" width="48%" />
-  <img src="img/03_sla_timer.jpg" width="48%" />
-  <br />
-  <em>Left: Building the 2-hour "Time to Resolution" timer | Right: The live timer counting down on a real ticket.</em>
-</p>
+**Confluence Knowledge Base**:
+Authored a structured knowledge base in Confluence covering common, high-volume issues. Articles were written for two audiences: end users who need self-service guidance, and technicians who need a consistent resolution reference. The KB was connected to the Jira portal so relevant articles surface automatically when users describe their issue — reducing ticket volume through deflection before a request is even submitted.
 
 ---
 
-### 3. Managing the Workflow (Solving Tickets)
-I practiced taking "tickets" through their full journey: **To Do → In Progress → Resolved.** This taught me how to document my work and keep the user informed so they aren't left wondering when their computer will be fixed.
+## Key Concepts Applied
+**SLA Accountability**: SLAs only work if they're enforced consistently. Configuring the rules is straightforward; the discipline is in treating every timer as a real commitment, not a suggestion.
 
-<p align="center">
-  <img src="img/04_ticket_in_progress.jpg" width="31%" />
-  <img src="img/04b_user_update.jpg" width="31%" />
-  <img src="img/05_ticket_resolved.jpg" width="31%" />
-  <br />
-  <em>Left: Moving to "In Progress" | Middle: Updating the user with a comment | Right: Marking as "Resolved."</em>
-</p>
+**Documentation as a Deliverable**: Internal notes and resolution summaries were treated as part of the job, not an afterthought. Good ticket documentation reduces repeat contacts, supports handoff between technicians, and creates an auditable record of what was done and why.
 
----
+**Ticket Deflection via Knowledge Base**: First-call resolution is the goal, but preventing the call entirely is better. Linking Confluence articles to common request types reduces queue volume and empowers users to resolve routine issues independently.
 
-### 4. Building the "Help Yourself" Library (Confluence)
-I used **Confluence** to create a "Knowledge Base." I wrote a step-by-step guide for common issues like VPN errors so users can find answers without even opening a ticket. This is called **Ticket Deflection**.
 
-<p align="center">
-  <img src="img/06_kb_creation.jpg" width="48%" />
-  <img src="img/07_kb_search.jpg" width="48%" />
-  <br />
-  <em>Left: Setting up the library | Right: The system suggesting my guide when a user types "VPN."</em>
-</p>
-
-<p align="center">
-<img src="img/08_vpn_guide.jpg" height="80%" width="80%">
-<br />
-<em>The finished guide: A professional "Problem vs. Solution" article I authored.</em>
-</p>
+**User Communication**: Every ticket included at least one user-facing update before resolution. Keeping requesters informed is a core part of help desk work that's easy to skip under pressure and consistently appreciated when done well.
 
 ---
 
-## Key Concepts I Learned
-- **Ticketing Systems:** How to keep a busy IT department organized.
-- **Prioritization:** Knowing which "fire" to put out first.
-- **Effective Documentation:** Writing clear notes so the rest of the team knows what I did.
-- **Customer Empathy:** Making the process easy and friendly for the person who is stressed.
+## Troubleshooting Encountered
+
+SLA timers required iterative configuration — initial rules didn't trigger as expected on certain request types, which required reviewing the priority conditions and queue assignments to identify where the logic broke. Confluence-to-Jira article surfacing also required correct space linking and indexing before search suggestions populated correctly in the portal.
 
 ---
 
-## Conclusion: Putting it All Together
-Before this lab, I thought "Help Desk" just meant answering phones and fixing computers. After building this environment, I realize it is actually about **management and communication**. By using Jira and Confluence together, I learned how to stay organized, be proactive, and value the user’s time.
+## Conclusion: Why This Lab Matters for Help Desk
+Help desk performance is measured on resolution time, documentation quality, user satisfaction, and ticket volume management — all of which this environment was built to practice directly. The combination of Jira Service Management and Confluence reflects the actual toolstack used across a wide range of IT support environments, from internal corporate help desks to managed service providers.
